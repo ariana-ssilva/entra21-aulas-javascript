@@ -1,0 +1,30 @@
+html{
+    background-image: url(/assets/cover.jpeg);
+}
+
+body{
+    background-color: transparent;
+    padding: 50px;
+}
+
+.card{
+    border-radius:10px;
+    border: none;
+    background: rgba( 244, 221, 65, 0.5 );
+    
+    backdrop-filter: blur( 0px );
+    -webkit-backdrop-filter: blur( 0px );
+    border-radius: 10px;
+}
+
+.card-body li, a{
+    font-size: xx-large;
+    text-decoration: none !important;
+    color: rgb(0, 0, 0);
+}
+
+.card-body a:hover{
+    font-size: xx-large;
+    text-decoration: none !important;
+    color: red;
+}
