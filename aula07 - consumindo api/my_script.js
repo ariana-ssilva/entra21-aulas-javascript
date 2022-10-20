@@ -9,7 +9,7 @@ $("#sos").on("click", function () {
                 $("h1", {class:"text-center"})
             )
             
-        },
+        },  
         error: (motivo) => {
             console.log(motivo);
         }, 

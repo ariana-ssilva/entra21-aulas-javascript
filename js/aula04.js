@@ -12,7 +12,7 @@ let lista = $("p")
 console.log(lista);
 console.log(lista.text());
 $("p").each(function() {
-    console.log(this.textContent);
+    console.log(this.textContent);  
 })
 console.group()
 console.group("Alterar conteúdos com jQuery")
